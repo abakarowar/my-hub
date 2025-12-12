@@ -1,0 +1,9 @@
+{
+    "uuid": "my-desklet@example",
+    "name": "My Desklet",
+    "description": "A simple desklet for Linux Mint",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "last-edited": "2024-01-01"
+}
+
