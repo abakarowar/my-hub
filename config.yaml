@@ -1,0 +1,14 @@
+# Конфигурация для скрипта уведомлений о дежурных
+
+# Путь к HTML файлу с графиком дежурств (экспортированному из Confluence)
+# Можно указать относительный путь (от директории скрипта) или абсолютный
+# Если не указан, скрипт будет искать файл автоматически по месяцу (например, 12.2025.html)
+# html_file: "453699053.html"  # Раскомментируйте и укажите имя файла, если нужно
+
+# Настройки YuChat для отправки сообщений
+yuchat:
+  api_url: "https://chat-api.bft.ru/public/v1/chat.message.send"
+  token: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5dWNoYXQiLCJzdWIiOiJteTllZDRkWEZwIiwidG9rZW5JZCI6Im15OWVkNGRYRnAiLCJpYXQiOjE3NjQ4MzE5NDgsImV4cGlyYXRpb25EYXRlIjoiXCIzMDI1LTEyLTA0VDA3OjA1OjQ4LjE1MTQyOTU0NlpcIiJ9.O8m2m518A4hnZyROC0JO5G1DxLtwCKmOtLj13UVg694"
+  workspace_id: "l62AWS4OIb"
+  chat_id: "w:lemwb67c1a"
+
